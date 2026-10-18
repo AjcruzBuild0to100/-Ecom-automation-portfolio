@@ -1,0 +1,8 @@
+SKU,Title,Price,Weight (g),Stock,Needs review
+MUG-001,Ceramic Mug,14.5,350,20,False
+TOTE-002,Linen Tote Bag,22.0,200,15,False
+CAN-003,Soy Candle,18.0,227,,True
+CAN-004,,18.0,220,7,True
+PIN-005,Enamel Pin Set,12.0,50,,True
+NB-006,Notebook A5,9.5,120,40,False
+PRT-007,Wall Print,,300,5,True

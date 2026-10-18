@@ -1,0 +1,27 @@
+row,field,old,new,reason
+2,SKU,mug-001,MUG-001,trim/uppercase
+2,Title,  ceramic mug  ,Ceramic Mug,trim/title case
+2,Price,$14.50,14.5,normalised to number
+2,Weight,350 g,350,converted to grams
+3,Weight,0.35 kg,350,converted to grams
+4,SKU,tote-002,TOTE-002,trim/uppercase
+4,Title,LINEN TOTE BAG,Linen Tote Bag,trim/title case
+4,Price,Rs. 22,22.0,normalised to number
+4,Weight,200g,200,converted to grams
+5,Price,"18,00",18.0,normalised to number
+5,Weight,8 oz,227,converted to grams
+5,Stock,abc,,"invalid stock, needs review"
+6,SKU,can-004,CAN-004,trim/uppercase
+6,Price,18,18.0,normalised to number
+6,Weight,220 g,220,converted to grams
+7,Price,12.00,12.0,normalised to number
+7,Weight,50g,50,converted to grams
+7,Stock,-3,,"invalid stock, needs review"
+8,Weight,,,missing
+9,SKU,nb-006 ,NB-006,trim/uppercase
+9,Title,notebook a5,Notebook A5,trim/title case
+9,Price,9.50,9.5,normalised to number
+9,Weight,120 g,120,converted to grams
+10,Price,thirty,,"unparseable, needs review"
+10,Weight,300 g,300,converted to grams
+,rows,9,7,removed 2 duplicate SKU rows (kept most complete)
